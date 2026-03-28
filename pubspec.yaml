@@ -1,0 +1,22 @@
+name: hack_innovation
+description: A new Flutter project
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: 0.11.0
+  image_picker: ^1.0.7
+  image: ^4.1.7
+  camera: ^0.10.5+5
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/last_float33.tflite
+    - assets/lmodel.tflite
